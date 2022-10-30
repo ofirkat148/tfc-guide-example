@@ -1,4 +1,3 @@
-policy "terraform-maintenance-windows" {
- source            = "./sentinel"
- enforcement_level = "hard-mandatory"
+policy "restrict-aws-region" {
+    enforcement_level = "soft-mandatory"
 }
