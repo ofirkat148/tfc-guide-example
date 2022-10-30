@@ -1,3 +1,3 @@
 policy "restrict-aws-region" {
-    enforcement_level = "Advisory"
+    enforcement_level = "advisory"
 }
